@@ -44,7 +44,7 @@ class _MyAppState extends State<JenisIkan> {
                 color: Color.fromARGB(255, 12, 202, 223),
               ),
               accountName: Text(
-                "Azwar Syifa",
+                "Azwar Syifa Mufiqi",
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                 ),
@@ -135,7 +135,10 @@ class _MyAppState extends State<JenisIkan> {
               ),
             ],
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 2, mainAxisSpacing: 10, crossAxisSpacing: 10),
+                crossAxisCount: 2,
+                childAspectRatio: 1,
+                mainAxisSpacing: 10,
+                crossAxisSpacing: 10),
           ),
         ),
       ),
