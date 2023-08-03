@@ -112,7 +112,7 @@ class _MyAppState extends State<JenisIkan> {
               InkWell(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => ikanlaut()));
+                      MaterialPageRoute(builder: (context) => IkanLaut()));
                 },
                 child: Container(
                   decoration: BoxDecoration(

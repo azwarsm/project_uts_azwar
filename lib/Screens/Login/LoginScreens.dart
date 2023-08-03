@@ -10,7 +10,7 @@ class LoginScreen extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Center(child: Text("Rekomendasi Ikan Hias")),
+        title: const Center(child: Text("Daftar Ikan Hias Azwar")),
         backgroundColor: Color.fromARGB(255, 133, 227, 227),
       ),
       body: const LoginComponent(),
